@@ -1,0 +1,11 @@
+matplotlib==3.10.1
+nltk==3.9.1
+numpy==2.2.6
+pandas==2.2.3
+polars==1.29.0
+scikit-learn==1.6.1
+seaborn==0.13.2
+torch==2.7.0
+tqdm==4.67.1
+transformers==4.51.3
+wandb==0.19.9

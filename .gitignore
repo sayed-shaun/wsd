@@ -1,0 +1,22 @@
+wandb
+output
+__pycache__
+*.pyc
+*.pyo
+*.ipynb_checkpoints
+*.ipynb
+*.log
+*.csv
+*.tsv
+*.json
+*.xml
+*.pickle
+
+# EC FAQ pipeline: keep the small gold files, drop the large regenerable
+# intermediate (prepared_data.json, ~60MB) and anything else under data/.
+data/*
+!data/question_tag.csv
+!data/tag_answer.json
+!data/wsd_train_data.json
+!data/faq_wsd/
+!data/faq_wsd/*
